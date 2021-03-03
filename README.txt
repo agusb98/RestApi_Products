@@ -1,4 +1,4 @@
-#Angular Mysql CRUD Tutorial - REST API Node & Typescript
+# Angular Mysql CRUD Tutorial - REST API Node & Typescript
 
 
 en la terminal:
