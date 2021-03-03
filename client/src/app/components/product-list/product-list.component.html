@@ -1,0 +1,32 @@
+<div class="col-md-4">
+    <div class="card text-center">
+        <div class="card-header bg-dark text-white d-flex justify-content-between align-items-center">
+            Agregar Producto
+        </div>
+        <img src="../../assets/add.jpg" class="car-img-top" class="nav-link" routerLink="/products/add" routerLinkActive="active">
+        <a class="nav-link" routerLink="/products/add" routerLinkActive="active" class="btn btn-info btn-block">
+            AGREGAR
+        </a>
+    </div>
+</div>
+
+
+<div class="col-md-4" *ngFor="let product of products">
+    <div class="card text-center">
+        <div class="card-header bg-dark text-white d-flex justify-content-between align-items-center">
+            {{product.name}}
+            <button class="btn btn-danger" (click)="deleteProduct(product.id)">
+                <i class="far fa-trash-alt"></i>
+            </button>
+        </div>
+        <img [src]="product.image" class="card-img-top">
+        <div class="card-body">
+            <p>Genero: {{product.sex}}</p>
+            <p>Disponibles: {{product.quantity}}</p>
+            <p>Precio: ${{product.price}}</p>
+            <a routerLink='edit/{{product.id}}' class="btn btn-info btn-block">
+                MODIFICAR
+            </a>
+        </div>
+    </div>
+</div>

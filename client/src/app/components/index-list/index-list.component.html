@@ -1,0 +1,14 @@
+<div class="col-md-4" *ngFor="let product of products">
+    <div class="card text-center">
+        <div class="card-header bg-dark text-white d-flex justify-content-between align-items-center">
+            {{product.name}}
+        </div>
+        <img [src]="product.image" class="card-img-top">
+        <div class="card-body">
+            <p>Genero: {{product.sex}}</p>
+            <p>Disponibles: {{product.quantity}}</p>
+            <p>Precio: ${{product.price}}</p>
+            <button (click)="getProduct(product.id)" type="button" class="btn btn-link">DETALLE</button>
+        </div>
+    </div>
+</div>
