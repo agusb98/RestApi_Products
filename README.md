@@ -1,8 +1,7 @@
 # Angular Mysql CRUD Tutorial - REST API Node & Typescript
 
 
-en la terminal:
-    /////////////// BACKEND //////////////////////
+en la terminal: BACKEND 
 
     npm init --yes
     npm i express morgan promise-mysql cors 
@@ -17,7 +16,8 @@ en la terminal:
     mysql -u root -p
     npm i promise-mysql@3.3.1
 
-    /////////////// FRONTEND //////////////////////
+en la terminal: FRONTEND 
+
     ng new client  --routing
     ng g c components/navigation
     ng g c components/product-form
