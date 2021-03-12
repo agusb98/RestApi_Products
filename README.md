@@ -1,5 +1,9 @@
 # Angular Mysql CRUD Tutorial - REST API Node & Typescript
 
+![Uploading index.PNG…]()
+![signin](https://user-images.githubusercontent.com/61479841/110896312-16af4a00-82da-11eb-9dac-85cb1edbe8f3.PNG)
+
+
 aplicación web usando Angular , Nodejs y la base de datos MySQL. En esta aplicación se nuestra REST API, utilizando Nodejs junto con Typescript que luego es utlizada junto a aplicación frontend usando angular y otros modulos de Javascript.
 
 en la terminal: BACKEND 
